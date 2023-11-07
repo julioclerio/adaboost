@@ -58,6 +58,29 @@ This project involves the analysis of the German Credit Data dataset, aiming to 
 | F1-Score 1  | 0.82  |
 | Accuracy    | 0.71  |
 
+
+## Project Structure
+
+The project is organized into the following directories:
+
+- `notebook`: This directory contains Jupyter notebooks with the complete analysis, including data preprocessing, model training, and evaluation.
+- `repository`: The directory where the `german_credit_data.csv` file is stored.
+
+
+## Getting Started
+
+To get started with this project, clone the repository and navigate to the respective directories to access the Jupyter notebooks and the dataset:
+
+```bash
+git clone https://github.com/julioclerio/adaboost
+# Run the Jupyter notebooks
+cd adaboost/notebooks
+
+# Access the dataset for your analyses
+repository/german_credit_data.csv
+
+
+
 ## Open Collaborations
 
 Contributions to the project are welcome! If you have suggestions for improving the models, or if you have performed additional analyses that could provide further insights, please feel free to open an issue or submit a pull request.
