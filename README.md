@@ -3,6 +3,13 @@
 ## Overview
 This project involves the analysis of the German Credit Data dataset, aiming to identify patterns and insights related to credit risk. The challenge is to apply machine learning techniques, specifically AdaBoost, to improve predictions and perform both classification and regression tasks.
 
+## Project Structure
+
+The project is organized into the following directories:
+
+- `notebook`: This directory contains Jupyter notebooks with the complete analysis, including data preprocessing, model training, and evaluation.
+- `repository`: The directory where the `german_credit_data.csv` file is stored.
+
 ## Data Dictionary
 
 | Variable           | Description                                      | Type        |
@@ -59,13 +66,19 @@ This project involves the analysis of the German Credit Data dataset, aiming to 
 | Accuracy    | 0.71  |
 
 
-## Project Structure
+#### Regression Challenge
+The AdaBoost regressor was used to predict the `Credit amount` with a grid search to optimize its hyperparameters.
 
-The project is organized into the following directories:
+- Fitting 5 folds for each of 27 candidates, totalling 135 fits
+- Best Parameters: 
+  - Learning Rate: `0.1`
+  - Loss: `exponential`
+  - Number of Estimators: `50`
+- Regression Metrics on Test Set:
+  - Mean Squared Error (MSE): `3978140.86`
+  - Mean Absolute Error (MAE): `1466.01`
+  - R-squared: `0.346`
 
-- `notebook`: This directory contains Jupyter notebooks with the complete analysis, including data preprocessing, model training, and evaluation.
-- `repository`: The directory where the `german_credit_data.csv` file is stored.
-  
 
 ## Open Collaborations
 
