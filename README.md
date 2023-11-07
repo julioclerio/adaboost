@@ -65,6 +65,11 @@ The project is organized into the following directories:
 
 - `notebook`: This directory contains Jupyter notebooks with the complete analysis, including data preprocessing, model training, and evaluation.
 - `repository`: The directory where the `german_credit_data.csv` file is stored.
+  
+
+## Open Collaborations
+
+Contributions to the project are welcome! If you have suggestions for improving the models, or if you have performed additional analyses that could provide further insights, please feel free to open an issue or submit a pull request.
 
 
 ## Getting Started
@@ -81,7 +86,5 @@ repository/german_credit_data.csv
 
 
 
-## Open Collaborations
 
-Contributions to the project are welcome! If you have suggestions for improving the models, or if you have performed additional analyses that could provide further insights, please feel free to open an issue or submit a pull request.
 
